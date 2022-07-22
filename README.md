@@ -51,5 +51,8 @@ Sections:
 3. Inspect the Transaction on Ganache
 
 
+MNEMONIC = 'YOUR MNEMONIC SEED PHRASE HERE'
+
+
 ## Contributors
 Created by Arthur Lovett
