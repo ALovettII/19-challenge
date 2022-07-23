@@ -63,7 +63,7 @@ To launch the Streamlit application from your terminal:
 
 
 ### Screenshots: Transaction Verification
-#### Fintech Finder Application (with transaction hash
+#### Fintech Finder Application (with transaction hash)
 Verify the transaction using the resulting hash and the account addresses of each party:
 ![Fintech Finder](https://github.com/ALovettII/19-challenge/blob/main/Images/ss_app.png)
 
