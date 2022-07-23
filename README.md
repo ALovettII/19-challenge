@@ -31,7 +31,7 @@ pip install bip44
 
 
 ## Usage
-### Project Main Sections
+### Main Sections:
 1. Import Ethereum Transaction Functions into the Fintech Finder Application
 2. Sign and Execute a Payment Transaction
 3. Inspect the Transaction on Ganache
@@ -49,7 +49,7 @@ pip install bip44
 * Digitally sign a transaction that pays a Fintech Finder candidate, and send this transaction to the Ganache blockchain.
 * Review the transaction hash code associated with the validated blockchain transaction.
 
-### Deployment
+### Deployment:
 For successful deployment, you will need to create a `.env` file with your mnemonic from Ganashe:
 ```python
 MNEMONIC = 'YOUR MNEMONIC SEED PHRASE HERE'
@@ -65,20 +65,19 @@ To launch the Streamlit application from your terminal:
 ### Screenshots: Transaction Verification
 **Fintech Finder Application (with transaction hash)**
 Verify the transaction using the resulting hash and the account addresses of each party:
-![]()
+![Fintech Finder](https://github.com/ALovettII/19-challenge/blob/main/Images/ss_app.png)
 
 **Transaction Details**
 On Ganache: Verify completion by matching the transaction hash:
-![]()
+![Transaction](https://github.com/ALovettII/19-challenge/blob/main/Images/ss_transaction.png)
 
 **Client Balance**
 We can see that the client's (your) balance (100 inital ether) has decreased equal to the amount of the transaction (8 ether).
-![]()
+![Client Balance](https://github.com/ALovettII/19-challenge/blob/main/Images/ss_balance.png)
 
-**Block History**
-Ganashe also lists the data contained in our Block 1:
-![]()
-
+**Block 1**
+Ganashe also displays the data contained in our Block 1:
+![Block 1](https://github.com/ALovettII/19-challenge/blob/main/Images/ss_block.png)
 
 
 ## Contributors
